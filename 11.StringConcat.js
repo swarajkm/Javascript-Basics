@@ -11,3 +11,10 @@ ourStr += "I come second.";
 //This just takes the string I come second and concats to string stored in ourStr
 
 console.log(ourStr);
+
+//concatenation of string variables using the +=
+
+var str1 = "worthwhile!";
+var str2 = "Learning to code is ";
+str2 += str1;
+console.log(str2);
